@@ -1,1 +1,2 @@
-cant access the privat repository
+cant access the private repository
+Private repository cannot be made :(
