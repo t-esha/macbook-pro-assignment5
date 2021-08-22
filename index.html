@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACKBOOK PRO</title>
+
+    <!--stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col">
+                    <img src="mac.png" alt="" width=80%>
+
+                </div>
+                <div class="col ">
+                    <h2> Customize your Blue 24-inch iMac with Apple M1 Chip </h2>
+                    <p>The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance. Up to 5x the graphics speed.
+                        Our most advanced Neural Engine for up to 11x faster machine learning.
+                        And up to 20 hours of battery life — the longest of any Mac ever. It’s our most popular pro notebook, taken to a whole new level.<br><br>
+                        You Can have 20% discount with our promo code "STEVEKAKU"
+                    </p>
+
+                    <!--Memory Section-->
+                    <div class="memory ">
+                        <h4><b>Memory</b></h4>
+                        <button type="button" id="8gb-memory" class="btn btn-outline-primary">8GB unified Memory</button>
+                        <button type="button" id="16gb-memory" class="btn btn-outline-primary">16GB unified Memory</button>
+                    </div>
+
+
+                      <!--Storage Section-->
+                    <div class="storage ">
+                        <h4><b>Storage</b></h4>
+                        <button type="button" id="256gb-ssd" class="btn btn-outline-primary">256GB SSD Storage</button>
+                        <button type="button" id="512gb-ssd" class="btn btn-outline-primary">512GB SSD Storage</button>
+                        <button type="button" id="1tb-ssd" class="btn btn-outline-primary">1TB SSD Storage</button>
+                    </div>
+
+
+                      <!--Delivery Section-->
+                    <div class="delivery">
+                        <h4><b>Choose your delivery option </b></h4>
+                        <button type="button" id="without-delivery-charge" class="btn btn-outline-primary">Friday Aug 25 FREE Prime Delivery</button>
+                        <button type="button" id="with-delivery-charge" class="btn btn-outline-primary">Friday Aug 21 Delivery charge $20</button>
+                    </div>
+
+
+
+                    <!--Price Update Section-->
+                    <div class="price-Table-container">
+                    <table class="table">
+                        
+                        <tbody>
+                          <tr>
+                           
+                            <td>Best Price</td>
+                            <td>$<span id="best-cost">1299</span></td>
+                          </tr>
+                          <tr>
+                            
+                            <td>Extra Memory Cost </td>
+                            <td>$<span id="extra-memory-cost">0</span></td>
+                          </tr>
+                          <tr>
+                            
+                            <td >Extra Storage Cost </td>
+                            <td>$<span id="extra-storage-cost">0</span></td>
+                          </tr>
+                          <tr>
+                            
+                            <td >Delivery Charge </td>
+                            <td>$<span id="extra-delivery-cost">0</span></td>
+                          </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                            
+                                <td >Total Price </td>
+                                <td>$<span id="total-cost">1299</span></td>
+                              </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                    <div class="promo-code-container">
+                        <h3>Add Promo Code</h3>
+                        <div class="row row-cols-lg-auto g-3 align-items-center">
+                            <div class="col-12">
+                              
+                                <input type="text" class="form-control" id="promo-code" placeholder="Enter Your Promo Code">
+                              
+                            </div>
+                          
+                           
+                            <div class="col-12">
+                              <button id="code-entered" type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+        
+        <!--Total Price-->
+    </section>
+    <footer class="text-center">
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <h1 > Total : $<span id="display-cost">1299</span></h1>
+    </footer>
+
+    <!--RAW JAVASCRIPT-->
+    <script src="macbook.js"></script>
+
+
+</body>
+</html>
